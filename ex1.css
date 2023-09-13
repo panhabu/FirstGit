@@ -1,0 +1,43 @@
+#header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    margin: 0px;
+}
+
+#trai{
+    float :left;
+    background-color: whitesmoke;
+    height: 550px;
+    width: 200px;
+    display: inline;
+    
+}
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:15px ;
+    padding-left:10px;
+}
+
+#para{
+    padding-top: 30px;
+}
+
+#phai{
+   height: 550px;
+   padding-left: 210px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: grey;
+    padding-top:25px;
+    height: 55px;
+}

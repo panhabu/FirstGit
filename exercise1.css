@@ -1,0 +1,45 @@
+/* span{
+    background: yellow ;
+    color:aqua;
+} */
+
+p#bva{
+    background: blue;
+}
+
+h1.sky{
+    background: aqua;
+    color :yellow;
+    font-size: 100px;
+}
+.code{
+    font-family: Consolas;
+}
+
+div.items a{
+    color:green;
+    font-weigh:bold;
+}
+
+h2 +h2{
+    font-style: italic;
+    font-weight:bold;
+}
+
+p+h2{
+    color :red
+}
+
+/* the con dau tien  */
+div>span { 
+    background: dodgerblue;
+}
+span{
+    background: aquamarine;
+}
+
+/* thuc hien theo thu tu tung class */
+.apple{color :red}
+.orange{color:blue}
+.small{font-size:50px}
+.apple.small {font-style:italic };

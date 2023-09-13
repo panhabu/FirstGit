@@ -1,0 +1,19 @@
+div.h1 a+a{
+    margin-left: 50px;
+}
+
+table.bang{
+    border: 1px solid black;
+    border-collapse:collapse;
+    width : 200px;
+}
+div.left{
+    float: left;
+    width: 20%;
+    height: 600px;
+}
+div.rigt{
+    float: right;
+    width: 80%;
+    height: 600px;
+}
