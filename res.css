@@ -19,7 +19,7 @@ body{
     border-radius: 20px;
 
 } 
-.trai{
+.row{
    display: flex;
    margin-left: 50px;
 }
@@ -32,10 +32,7 @@ body{
     height: 40px; 
     
 }
- .phai{
-   display: flex;
-   margin-left: 50px;
-} 
+
 
 .row-3{
     display: flex;
@@ -61,4 +58,7 @@ body{
     border-radius: 4px;
     color: antiquewhite;
     margin-top: 30px;
+}
+.link{
+    text-align: center;
 }
