@@ -15,7 +15,7 @@ class TS{
 		}
 	friend istream &operator >>(istream& cin , TS &a);
 	friend ostream &operator <<(ostream &out, TS a);
-	bool operator< (TS b); // phuong thuc cua ham nen chi can 1 doi so 
+	bool operator> (TS b); // phuong thuc cua ham nen chi can 1 doi so 
 	float tk(TS *a,int n);
 	float hl(TS *a,int n);
 	void sxep(TS *a, int n);
@@ -59,8 +59,8 @@ float TS ::hl(TS *a,int n){
 	return res ;
 }
 
-bool TS :: operator < (TS a){
-	return this->diem < a.diem ;
+bool TS :: operator > (TS a){
+	return this->diem > a.diem ;
 }
 int main(){
 	TS *a;
