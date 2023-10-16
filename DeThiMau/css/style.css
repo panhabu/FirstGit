@@ -1,0 +1,80 @@
+.wrapper{
+   margin: 0 auto;
+}
+.main{
+    background-color: #808080;
+    width :100%;
+    /* overflow: auto; */
+  
+}
+.title{
+    line-height: 30px;
+    background-image:linear-gradient(to bottom,#fcd917,#FBEA9D);
+    font-size: 20px;
+}
+.hotnews{
+    display:flex;
+}
+.imgnews{
+     box-sizing: border-box;
+     padding: 0 10px;
+  
+}
+
+
+.textnews{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content{
+   font-size: 20px;
+   letter-spacing: 0.5px;
+    color: white;
+	background-image: linear-gradient(to bottom right, #989797, #383838)
+}
+
+.frmcomment{
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
+.news{
+    display: flex;
+    gap: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo image{
+    width: 50%;
+    margin-left: 15px;
+}
+.logo p{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.list-service {
+    /* xóa dấu chấm trước danh sách */
+    list-style: none; 
+   
+	background-image: linear-gradient(to bottom right, #989797, #383838)
+}
+
+.list-service li {
+    display:inline-block;
+    padding: 20px 15px;   
+}
+.list-service li a{
+    text-decoration: none;
+    display: block;
+   color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
