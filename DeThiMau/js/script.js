@@ -21,7 +21,7 @@ function send(){
         return false;
     }
     if (isNaN(rating) || rating.trim() === "") {
-        alert("Rating phải là một số");
+        alert("Rating phải là một số và không được để trống");
         return false ;
     }
 
