@@ -16,16 +16,17 @@ function send(){
         return false;
     }
 
+    if (comment.trim() === "") {
+        alert("Comment không được để trống");
+        return false;
+    }
     if (isNaN(rating) || rating.trim() === "") {
         alert("Rating phải là một số");
         return false ;
     }
 
 
-    if (comment.trim() === "") {
-        alert("Comment không được để trống");
-        return false;
-    }
+ 
 }
 
 // end coding implementation
